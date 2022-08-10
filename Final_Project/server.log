@@ -1,0 +1,25 @@
+nohup: ignoring input
+2022-08-09 19:48:02.356189: I external/org_tensorflow/tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-08-09 19:48:02.392798: I tensorflow_serving/model_servers/server.cc:89] Building single TensorFlow model file config:  model_name: model model_base_path: /home/qurram/Workstation/dal/qurramzaheer_syed_b00902314_csci5901/Final_Project/plswork
+2022-08-09 19:48:02.394088: I tensorflow_serving/model_servers/server_core.cc:465] Adding/updating models.
+2022-08-09 19:48:02.394125: I tensorflow_serving/model_servers/server_core.cc:594]  (Re-)adding model: model
+2022-08-09 19:48:02.495066: I tensorflow_serving/core/basic_manager.cc:740] Successfully reserved resources to load servable {name: model version: 1}
+2022-08-09 19:48:02.495117: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: model version: 1}
+2022-08-09 19:48:02.495128: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: model version: 1}
+2022-08-09 19:48:02.495628: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:43] Reading SavedModel from: /home/qurram/Workstation/dal/qurramzaheer_syed_b00902314_csci5901/Final_Project/plswork/1
+2022-08-09 19:48:02.499145: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:81] Reading meta graph with tags { serve }
+2022-08-09 19:48:02.499186: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:122] Reading SavedModel debug info (if present) from: /home/qurram/Workstation/dal/qurramzaheer_syed_b00902314_csci5901/Final_Project/plswork/1
+2022-08-09 19:48:02.499585: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-09 19:48:02.533684: I external/org_tensorflow/tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:354] MLIR V1 optimization pass is not enabled
+2022-08-09 19:48:02.535747: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:228] Restoring SavedModel bundle.
+2022-08-09 19:48:02.628874: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:212] Running initialization op on SavedModel bundle at path: /home/qurram/Workstation/dal/qurramzaheer_syed_b00902314_csci5901/Final_Project/plswork/1
+2022-08-09 19:48:02.646618: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:301] SavedModel load for tags { serve }; Status: success: OK. Took 150984 microseconds.
+2022-08-09 19:48:02.647624: I tensorflow_serving/servables/tensorflow/saved_model_warmup_util.cc:59] No warmup data file found at /home/qurram/Workstation/dal/qurramzaheer_syed_b00902314_csci5901/Final_Project/plswork/1/assets.extra/tf_serving_warmup_requests
+2022-08-09 19:48:02.648645: I tensorflow_serving/core/loader_harness.cc:95] Successfully loaded servable version {name: model version: 1}
+2022-08-09 19:48:02.649995: I tensorflow_serving/model_servers/server_core.cc:486] Finished adding/updating models
+2022-08-09 19:48:02.650375: I tensorflow_serving/model_servers/server.cc:133] Using InsecureServerCredentials
+2022-08-09 19:48:02.650393: I tensorflow_serving/model_servers/server.cc:395] Profiler service is enabled
+2022-08-09 19:48:02.652867: I tensorflow_serving/model_servers/server.cc:421] Running gRPC ModelServer at 0.0.0.0:8500 ...
+[evhttp_server.cc : 245] NET_LOG: Entering the event loop ...
+2022-08-09 19:48:02.654284: I tensorflow_serving/model_servers/server.cc:442] Exporting HTTP/REST API at:localhost:3000 ...
